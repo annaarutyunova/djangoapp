@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% if alph_items %}
+    <ul>
+        {% for item in alph_items %}
+            <li><a href="/app/{{item.id}}/">{{item.item_name}}</a></li>
+        {% endfor %}
+    </ul>
+    {% else %}
+        <p>No items are available.</p>
+    {% endif %}
+</body>
+</html>

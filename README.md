@@ -1,3 +1,27 @@
+# Overview
+
+An attempt to create a webapp using django on python, to display different objects on the screen and add them to sqlite database in django. 
+
+The purpose of the project is to learn how to build webapps frontend and backend in python using django framework
+
+[Software Demo Video](https://youtu.be/43__pdjOuqk)
+
+# Development Environment
+
+Django
+python 3.9.4
+Visual Studio Code
+
+# Useful Websites
+
+* [Python Django Documentation](https://docs.djangoproject.com/en/4.1/)
+
+
+# Future Work
+
+* Actually add more things to the database
+* Finish the tutorial
+
 # py -m venv venv
 # create a test.py file in the root level
 # activate the environment
